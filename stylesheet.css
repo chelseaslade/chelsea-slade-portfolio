@@ -3,7 +3,25 @@ Software Development Portfolio
 August 5/2024 - */
 
 /*Navigation*/
+
 .navBar {
+  padding-bottom: 20px;
+}
+
+.navBar a {
+  color: darkolivegreen;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.navBar a:visited {
+  color: teal;
+}
+
+.navBar a:hover {
+  color: blue;
+  font-size: large;
+  transition: 1.6s;
 }
 
 .navBar ul {
@@ -33,4 +51,10 @@ August 5/2024 - */
   color: darkolivegreen;
   margin: 0px;
   padding: 0px;
+}
+
+#introPic {
+  padding: 50px;
+  border-radius: 50%;
+  height: 200px;
 }

@@ -7,10 +7,16 @@ August 5/2024 - */
 .navBar {
 }
 
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
 .navBar a {
   color: darkolivegreen;
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
 }
 
 .navBar a:visited {
@@ -21,10 +27,6 @@ August 5/2024 - */
   color: blue;
   font-size: large;
   transition: 1.6s;
-}
-
-.navBar ul {
-  list-style-type: none;
 }
 
 /*Main Styling*/
@@ -39,21 +41,38 @@ August 5/2024 - */
   flex-direction: row;
 }
 
-.introduction {
+.introductionHead {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.introduction h1 {
+.introductionHead h1 {
   color: black;
   margin-bottom: 0;
   padding-left: 10px;
 }
 
-.introduction h3 {
-  color: darkolivegreen;
+.introductionHead h3 {
+  color: black;
   margin-bottom: 0;
   padding-left: 10px;
+}
+
+.introBox {
+  padding: 30px;
+  margin: 40px;
+  background-color: rgb(212, 241, 212);
+  border-radius: 10%;
+  width: 400px;
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #introPic {
@@ -62,4 +81,14 @@ August 5/2024 - */
   border-radius: 50%;
   height: 200px;
   object-fit: cover;
+}
+
+/* Footer */
+.footerBar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: auto;
+  background-color: rgb(255, 241, 224);
 }

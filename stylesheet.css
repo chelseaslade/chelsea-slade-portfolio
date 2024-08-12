@@ -172,10 +172,18 @@ August 5/2024 - */
 .footerBar {
   margin-top: 20px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  height: 30px;
+  height: 50px;
   width: auto;
   background-color: rgb(213, 223, 215);
+}
+
+.footerIcons img {
+  opacity: 60%;
+  margin-left: 30px;
+  height: 25px;
+  display: inline;
 }
 
 /* About Me Page */
@@ -198,6 +206,11 @@ August 5/2024 - */
   height: 200px;
   padding: 20px;
   border-radius: 50%;
+}
+
+#aboutPic:hover {
+  opacity: 60%;
+  transition: 2s;
 }
 
 .aboutHeader h1 {
@@ -243,4 +256,15 @@ August 5/2024 - */
   height: 300px;
   object-fit: cover;
   padding: 5px;
+}
+
+/* Social Page */
+
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialPageIcons {
 }

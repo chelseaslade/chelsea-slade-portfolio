@@ -168,6 +168,24 @@ August 5/2024 - */
   opacity: 100%;
 }
 
+#projectButton {
+  width: 140px;
+  height: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  color: #ffff;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#projectButton:hover {
+  transition: 1.7s;
+  opacity: 60%;
+  cursor: pointer;
+}
+
 /* Footer */
 .footerBar {
   margin-top: 20px;

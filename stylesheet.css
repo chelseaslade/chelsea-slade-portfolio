@@ -177,3 +177,70 @@ August 5/2024 - */
   width: auto;
   background-color: rgb(213, 223, 215);
 }
+
+/* About Me Page */
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picBG {
+  background-color: rgb(213, 223, 215);
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#aboutPic {
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.aboutHeader h1 {
+  color: black;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.aboutParagraph1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  text-align: center;
+  padding: 5px;
+}
+
+.aboutParagraph2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  text-align: center;
+  padding: 5px;
+}
+
+.aboutParagraph3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.aboutGallery {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.aboutPic {
+  height: 300px;
+  object-fit: cover;
+  padding: 5px;
+}

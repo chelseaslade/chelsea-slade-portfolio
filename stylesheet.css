@@ -204,6 +204,53 @@ August 5/2024 - */
   display: inline;
 }
 
+/* Projects Page */
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  background-color: rgb(213, 223, 215);
+  height: auto;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  padding: 10px;
+}
+
+.project p {
+  padding: 10px;
+}
+
+#githubLink {
+  margin: 10px;
+  width: 120px;
+  height: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  color: #ffff;
+  cursor: pointer;
+}
+
+#githubLink:hover {
+  transition: 1.7s;
+  opacity: 60%;
+  cursor: pointer;
+}
+
 /* About Me Page */
 
 .aboutContainer {
@@ -274,15 +321,4 @@ August 5/2024 - */
   height: 300px;
   object-fit: cover;
   padding: 5px;
-}
-
-/* Social Page */
-
-.socialContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.socialPageIcons {
 }

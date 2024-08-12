@@ -375,13 +375,13 @@ August 5/2024 - */
   align-items: center;
 }
 
-.contactForm input {
+.contactMain input {
   width: 300px;
   margin: 10px;
   display: block;
 }
 
-.contactForm button {
+.contactMain button {
   margin: 10px;
   width: 120px;
   height: auto;

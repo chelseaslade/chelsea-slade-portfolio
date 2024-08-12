@@ -262,6 +262,37 @@ August 5/2024 - */
   object-fit: contain;
 }
 
+/* Individual Project Pages */
+
+.indvProjectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indvProjectHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indvProjectBox {
+  background-color: rgb(213, 223, 215);
+  height: auto;
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.indvProjectBox img {
+  height: 400px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* About Me Page */
 
 .aboutContainer {

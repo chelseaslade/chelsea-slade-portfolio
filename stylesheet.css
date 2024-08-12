@@ -288,11 +288,35 @@ August 5/2024 - */
   padding: 30px;
 }
 
+.indvProjectBox h3 {
+  margin: 10px;
+}
+
 .indvProjectBox img {
+  margin-bottom: 20px;
   height: 400px;
   width: auto;
   object-fit: contain;
   border-radius: 20px;
+}
+
+.indvProjectBox button {
+  margin: 10px;
+  width: 120px;
+  height: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  color: #ffff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.indvProjectBox button:hover {
+  transition: 1.7s;
+  opacity: 60%;
+  cursor: pointer;
 }
 
 /* About Me Page */

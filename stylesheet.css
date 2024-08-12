@@ -221,8 +221,12 @@ August 5/2024 - */
 .project {
   background-color: rgb(213, 223, 215);
   height: auto;
-  width: 600px;
+  width: 650px;
   margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .project h3 {
@@ -233,7 +237,7 @@ August 5/2024 - */
   padding: 10px;
 }
 
-#githubLink {
+.project button {
   margin: 10px;
   width: 120px;
   height: auto;
@@ -243,12 +247,19 @@ August 5/2024 - */
   background-color: gray;
   color: #ffff;
   cursor: pointer;
+  text-align: center;
 }
 
-#githubLink:hover {
+.project button:hover {
   transition: 1.7s;
   opacity: 60%;
   cursor: pointer;
+}
+
+.project img {
+  height: 300px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* About Me Page */

@@ -16,18 +16,23 @@ August 5/2024 - August 12/2024-->
     <div class="mainContainer">
         <nav class="navBar">
             <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="projects.html">
-                    <li>Projects</li>
-                </a>
-                <a href="social.html">
-                    <li>Social</li>
-                </a>
-                <a href="about.html">
-                    <li>About Me</li>
-                </a>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li id="projects">
+                    <a href="projects.html">Projects</a>
+                    <ul id="dropdown">
+                        <li><a href="#link1">Dog Breed API</a></li>
+                        <li><a href="#link2">Patient Registration Program</a></li>
+                        <li><a href="#">Typing Test</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="social.html">Social</a>
+                </li>
+                <li>
+                    <a href="about.html">About Me</a>
+                </li>
             </ul>
         </nav>
         <div class="introContainer">
@@ -40,11 +45,36 @@ August 5/2024 - August 12/2024-->
                 <div class="introBox">
                     <p>Hello! My name is Chelsea Slade. Thank you for stopping by to visit my software development
                         portfolio! </p>
+                    <a href="about.html">
+                        <button>More about me --> </button>
+                    </a>
+                </div>
+            </div>
+            <div class="featuredContainer">
+                <h2>Featured Projects</h2>
+                <div class="featuredBox">
+                    <div class="featuredProject">
+                        <img src="./pics/dogIcon.jpg" class="featuredImg" />
+                        <h3>Dog Breed API</h3>
+                        <p>React, Fetch API</p>
+                        <a href="projects.html"><button>Check it out!</button></a>
+                    </div>
+                    <div class="featuredProject">
+                        <img src="./pics/doctorIcon.jpg" class="featuredImg" />
+                        <h3>Patient Registration Software</h3>
+                        <p>Python, SQLite3</p> <button>Check it out!</button>
+                    </div>
+                    <div class="featuredProject">
+                        <img src="./pics/typingIcon.jpg" class="featuredImg" />
+                        <h3>Typing Test</h3>
+                        <p>Javascript, HTML, CSS</p>
+                        <button>Check it out!</button>
+                    </div>
                 </div>
             </div>
         </div>
         <footer class="footerBar">
-            <p>hello</p>
+            <p>Footer here</p>
         </footer>
 </body>
 

@@ -18,6 +18,7 @@ August 5/2024 - */
   color: darkolivegreen;
   text-decoration: none;
   margin: 20px;
+  padding: 5px;
 }
 
 .navBar a:visited {
@@ -26,7 +27,6 @@ August 5/2024 - */
 
 .navBar a:hover {
   color: gray;
-  font-weight: 800;
 }
 
 #dropdown {
